@@ -37,6 +37,9 @@
     <ApplicationIcon>ACEOML.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="0Harmony, Version=2.0.0.8, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lib.Harmony.2.0.0.8\lib\net45\0Harmony.dll</HintPath>
+    </Reference>
     <Reference Include="Assembly-CSharp">
       <HintPath>..\ACEOLibs\Assembly-CSharp.dll</HintPath>
     </Reference>
